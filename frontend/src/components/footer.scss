@@ -1,0 +1,26 @@
+.footer-buttons  {
+    display: grid;
+      padding: 5px;
+      border-radius: 7px;
+      position: relative;
+      bottom: 110px;
+    .btn-primary {
+      border-radius: 7px;
+      color: #4db6ac;
+      background: white;
+      &.isDisabled {
+        cursor: not-allowed;
+      }
+      &.isAllowed {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .footer-components {
+    display: inline-flex;
+    position: relative;
+    bottom: 150px;
+    //margin-left: 45px;
+    margin-left: 212px;
+  }
